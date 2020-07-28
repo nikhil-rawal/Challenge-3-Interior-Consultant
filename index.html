@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interior Consultant</title>
+    <!--Google Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300&family=Lora:wght@500&family=Montserrat:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--CSS Local-->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <text>THIS INTERIOR</text>
+      </div>
+      <div class="options" id="options-a">
+        <div id="visual">
+          <a href="#" id="link" class="links"><text>Home</text></a>
+          <a href="#" id="link" class="links"><text>Collection</text></a>
+          <a href="#" id="link" class="links"><text>About</text></a>
+          <a href="#" id="link" class="links"><text>Contact</text></a>
+        </div>
+        <span class="menu-show" id="show-menu" onclick="show()"
+          ><i class="fas fa-bars"></i
+        ></span>
+        <span class="menu-hide" id="hide-menu" onclick="hide()"
+          ><i class="fas fa-times"></i
+        ></span>
+      </div>
+    </div>
+
+    <div id="temp">
+      <a href="#"><h1>Home</h1></a><br />
+      <a href="#"><h1>Collection</h1></a><br />
+      <a href="#"><h1>About</h1></a><br />
+      <a href="#"><h1>Contact</h1></a>
+    </div>
+
+    <div id="wrapup">
+      <div class="main" id="content-main">
+        <div class="content-left">
+          <text class="name">Mordern Interior</text>
+          <br class="break" /><br /><br />
+          <text class="info information"
+            >A full-Service residential & commercial interior design and staging
+            company offering professional organizing & eco-services.
+          </text>
+          <br /><br class="break" /><br />
+          <a href="#"
+            ><text class="info read"
+              >Read More &nbsp;&nbsp;<i
+                class="fas fa-long-arrow-alt-right"
+              ></i></text
+          ></a>
+        </div>
+        <div class="content-right">
+          <div>
+            <img
+              src="./Photos/photo1.png"
+              class="image1"
+              alt="Interior Image"
+            />
+          </div>
+
+          <br />
+
+          <div class="designer-details">
+            <div class="d-detail">
+              <div class="d-img">
+                <img
+                  src="./Photos/photo2.png"
+                  class="image2"
+                  alt="Designer Image"
+                />
+              </div>
+              <div class="d-name">
+                <text class="full-name">Aliza Webber</text>
+                <br />
+                <text class="full-post">Interior Designer</text>
+              </div>
+            </div>
+            <div class="extra"></div>
+            <div class="d-time">
+              <text>Designed in 2020 by<br />Aliza Webber</text>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="foot" id="content-foot">
+      <hr />
+      <text>Nikhil Rawal @ DevChallenges.io</text>
+    </div>
+
+    <!--Font Awesome Script-->
+    <script
+      src="https://kit.fontawesome.com/1496426755.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--Local Script-->
+    <script src="script.js"></script>
+  </body>
+</html>
